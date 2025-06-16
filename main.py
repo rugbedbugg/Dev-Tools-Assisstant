@@ -8,7 +8,7 @@ def main():
     print("Developer Tools Research Agent")
 
     while True:
-        query = input(">>> ").strip()[4:]
+        query = input(">>> ").strip()
         if query.lower() in {"quit", "exit"}:
             break
 
